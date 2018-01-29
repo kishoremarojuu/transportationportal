@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+    
+    <servlet-name>InitServlet</servlet-name>
+    <servlet-class>com.trans.util.InitServlet</servlet-class>
+    <init-param>
+      <param-name>config</param-name>
+      <param-value>/WEB-INF/config/system.properties</param-value>
+    </init-param>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCityAction</servlet-name>
+    <servlet-class>com.trans.action.AddCityAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewCityAction</servlet-name>
+    <servlet-class>com.trans.action.ViewCityAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteCityAction</servlet-name>
+    <servlet-class>com.trans.action.DeleteCityAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckuserAction</servlet-name>
+    <servlet-class>com.trans.action.CheckuserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddEmployeeAction</servlet-name>
+    <servlet-class>com.trans.action.AddEmployeeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewCityEmployeesAction</servlet-name>
+    <servlet-class>com.trans.action.ViewCityEmployeesAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteEmployeeAction</servlet-name>
+    <servlet-class>com.trans.action.DeleteEmployeeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>com.trans.action.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutAction</servlet-name>
+    <servlet-class>com.trans.action.LogoutAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddBusRouteAction</servlet-name>
+    <servlet-class>com.trans.action.AddBusRouteAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddBusScheduleAction</servlet-name>
+    <servlet-class>com.trans.action.AddBusScheduleAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTransportAction</servlet-name>
+    <servlet-class>com.trans.action.AddTransportAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddFareAction</servlet-name>
+    <servlet-class>com.trans.action.AddFareAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddEduInfoAction</servlet-name>
+    <servlet-class>com.trans.action.AddEduInfoAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddRoadWorkInfoAction</servlet-name>
+    <servlet-class>com.trans.action.AddRoadWorkInfoAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTrafficInfoAction</servlet-name>
+    <servlet-class>com.trans.action.AddTrafficInfoAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewProfileAction</servlet-name>
+    <servlet-class>com.trans.action.ViewProfileAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpadateActon</servlet-name>
+    <servlet-class>com.trans.action.UpadateActon</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FeedbackActon</servlet-name>
+    <servlet-class>com.trans.action.FeedbackActon</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewFeedbackAction</servlet-name>
+    <servlet-class>com.trans.action.ViewFeedbackAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewCityByAdminAction</servlet-name>
+    <servlet-class>com.trans.action.ViewCityByAdminAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewFeedBackByAdminAction</servlet-name>
+    <servlet-class>com.trans.action.ViewFeedBackByAdminAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteFeedBackAction</servlet-name>
+    <servlet-class>com.trans.action.DeleteFeedBackAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTrainRouteAction</servlet-name>
+    <servlet-class>com.trans.action.AddTrainRouteAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTrainScheduleAction</servlet-name>
+    <servlet-class>com.trans.action.AddTrainScheduleAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateTrainScheduleAction</servlet-name>
+    <servlet-class>com.trans.action.UpdateTrainScheduleAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMMTSScheduleAction</servlet-name>
+    <servlet-class>com.trans.action.DeleteMMTSScheduleAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddCityAction</servlet-name>
+    <url-pattern>/AddCityAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewCityAction</servlet-name>
+    <url-pattern>/ViewCityAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCityAction</servlet-name>
+    <url-pattern>/DeleteCityAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckuserAction</servlet-name>
+    <url-pattern>/CheckuserAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddEmployeeAction</servlet-name>
+    <url-pattern>/AddEmployeeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewCityEmployeesAction</servlet-name>
+    <url-pattern>/ViewCityEmployeesAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteEmployeeAction</servlet-name>
+    <url-pattern>/DeleteEmployeeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/LoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutAction</servlet-name>
+    <url-pattern>/LogoutAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddBusRouteAction</servlet-name>
+    <url-pattern>/AddBusRouteAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddBusScheduleAction</servlet-name>
+    <url-pattern>/AddBusScheduleAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTransportAction</servlet-name>
+    <url-pattern>/AddTransportAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFareAction</servlet-name>
+    <url-pattern>/AddFareAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddEduInfoAction</servlet-name>
+    <url-pattern>/AddEduInfoAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddRoadWorkInfoAction</servlet-name>
+    <url-pattern>/AddRoadWorkInfoAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTrafficInfoAction</servlet-name>
+    <url-pattern>/AddTrafficInfoAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewProfileAction</servlet-name>
+    <url-pattern>/ViewProfileAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpadateActon</servlet-name>
+    <url-pattern>/UpadateActon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FeedbackActon</servlet-name>
+    <url-pattern>/FeedbackActon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewFeedbackAction</servlet-name>
+    <url-pattern>/ViewFeedbackAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewCityByAdminAction</servlet-name>
+    <url-pattern>/ViewCityByAdminAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewFeedBackByAdminAction</servlet-name>
+    <url-pattern>/ViewFeedBackByAdminAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteFeedBackAction</servlet-name>
+    <url-pattern>/DeleteFeedBackAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTrainRouteAction</servlet-name>
+    <url-pattern>/AddTrainRouteAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTrainScheduleAction</servlet-name>
+    <url-pattern>/AddTrainScheduleAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateTrainScheduleAction</servlet-name>
+    <url-pattern>/UpdateTrainScheduleAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMMTSScheduleAction</servlet-name>
+    <url-pattern>/DeleteMMTSScheduleAction</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>home.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
